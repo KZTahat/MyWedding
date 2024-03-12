@@ -1,0 +1,31 @@
+:root {
+  --sideBar_color: #171F39;
+  --icon_hover_color: #FA8C45;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+  transition: width 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  opacity: 0.3;
+  border-radius: 10px;
+  background-color: var(--sideBar_color);
+  transition: background-color 1s ease;
+}
+
+body {
+  position: relative;
+}

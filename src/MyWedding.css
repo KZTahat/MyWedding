@@ -1,0 +1,62 @@
+.count-down-timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    min-width: 100wh;
+    min-height: 100vh;
+    border-radius: 20px;
+    background-image: url('./assets/weddingsmallscreen.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.count-down-timer-container h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #01ACC4;
+}
+
+.count-down-timer-container h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #171F39;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.count-down-timer-container h2 i {
+    color: red;
+    font-size: 1.8em;
+}
+
+.count-down-timer-container h3 {
+    font-size: 1.2em;
+    color: #FA8C45;
+}
+
+.count-down-timer {
+    display: flex;
+    gap: 1em;
+}
+
+.count-down-timer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count-down-timer div p {
+    font-size: 3em;
+    color: #01ACC4;
+}
+
+.count-down-timer div span {
+    font-size: 1em;
+    color: #808080;
+}
