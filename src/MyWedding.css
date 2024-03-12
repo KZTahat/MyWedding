@@ -39,6 +39,10 @@
     color: #FA8C45;
 }
 
+.count-down-timer-container h3 i {
+    color: #01ACC4;
+}
+
 .count-down-timer {
     display: flex;
     gap: 1em;

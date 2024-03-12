@@ -54,8 +54,8 @@ function MyWedding() {
           <span>Seconds</span>
         </div>
       </div>
-      <h3>Jun 17, 2024 7:00 PM</h3>
-      <h3>Palm Palace</h3>
+      <h3><i class="ri-time-line"></i> Jun 17, 2024 7:00 PM</h3>
+      <h3><i class="ri-map-pin-2-line"></i> Palm Palace</h3>
     </section>
   );
 }
