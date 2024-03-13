@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import MyWedding from './MyWedding';
+import MyWedding from "./MyWedding";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <MyWedding />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
