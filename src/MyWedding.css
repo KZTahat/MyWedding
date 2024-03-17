@@ -8,7 +8,6 @@
     min-width: 100wh;
     min-height: 100vh;
     border-radius: 20px;
-    background-image: url('./assets/images/wedding.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -16,7 +15,7 @@
 .count-down-timer-container h1 {
     font-size: 2em;
     font-weight: 700;
-    color: #01ACC4;
+    color: var(--color_one);
 }
 
 .count-down-timer-container h2 {
@@ -37,11 +36,11 @@
 
 .count-down-timer-container h3 {
     font-size: 1.2em;
-    color: #FA8C45;
+    color: var(--color_two);
 }
 
 .count-down-timer-container h3 i {
-    color: #01ACC4;
+    color: var(--color_one);
 }
 
 .count-down-timer {
@@ -58,7 +57,7 @@
 
 .count-down-timer div p {
     font-size: 3em;
-    color: #01ACC4;
+    color: var(--color_one);
 }
 
 .count-down-timer div span {
@@ -73,16 +72,23 @@
     bottom: 10px;
 }
 
-.play-music {
+.theme-switch-buttons {
     position: absolute;
     top: 1em;
     right: 1em;
-    font-size: 2em;
-    color: #171F39;
-    cursor: pointer;
-    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
-#music-on-true {
-    color: #FA8C45;
+.theme-button {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 12px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
 }
